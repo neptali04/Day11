@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hero{
+    width: 100%;
+    height: 600px;
+    background-color: blueviolet;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/img/main.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.text-container{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.fa-twitter-square{
+    color: #fff;
+    padding:0px 10px 20px 0px ;
+}
+.fa-facebook{
+    color: #fff;
+}
+.fa-instagram{
+    color: #fff;
+    padding:0px 0px 20px 10px ;
+}
+.hero h1{
+    color:#fff;
+    text-transform: uppercase;
+    font-size: 32px;
+    padding: 10px 0px;
+
+}
+.hero h2{
+    color: #fff;
+    font-size: 22px;
+    padding: 10px 0px;
+
+}
